@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.app-container {
+  padding: 20px;
+  font-family: Roboto;
+  text-align: center;
+}
+
+.app-heading {
+  font-size: 28px;
+  font-family: Lobster;
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+.language-filters-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 0;
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+.repositories-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  list-style: none;
+}
+
+.failure-view-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.failure-img {
+  width: 300px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
